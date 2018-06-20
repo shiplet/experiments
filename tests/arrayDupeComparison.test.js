@@ -5,7 +5,7 @@ const {
   arrayObjAssign
 } = require("../arrayDupeComparison");
 
-const iterations = 1000000;
+const iterations = 10000000;
 
 describe("arraySlice", () => {
   const result = testMethod(arraySlice, iterations);
