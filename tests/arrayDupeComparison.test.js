@@ -3,7 +3,7 @@ const {
   arrayFrom,
   arraySlice,
   arrayObjAssign
-} = require("./arrayDupeComparison");
+} = require("../arrayDupeComparison");
 
 const iterations = 1000000;
 
