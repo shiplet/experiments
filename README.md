@@ -15,8 +15,6 @@ This is meant to show the performance differences between three methods of deepc
 - `Array.from`
 - `Object.assign`
 
-Each test iterates over a function that uses one of the three methods to deepcopy a trivially sized array, and pushes the current iteration count to the end of the new array.
-
-The new array is recreated for every iteration.
+Each test iterates over a function that uses one of the three methods to deepcopy a trivially sized array, and pushes the current iteration count to the end of the new array. The new array is recreated for every iteration.
 
 Iteration count is set in `tests/arrayDupeComparison.test.js`, and the default value is `1000000` (one million).
