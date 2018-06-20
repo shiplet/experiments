@@ -7,8 +7,8 @@ const {
 
 const iterations = 1000000;
 
-describe("arrayFrom", () => {
-  const result = testMethod(arrayFrom, iterations);
+describe("arraySlice", () => {
+  const result = testMethod(arraySlice, iterations);
   test("newArr should be longer than origin by one", () => {
     expect(result.newArr).toHaveLength(result.origin.length + 1);
   });
@@ -20,8 +20,8 @@ describe("arrayFrom", () => {
   });
 });
 
-describe("arraySlice", () => {
-  const result = testMethod(arraySlice, iterations);
+describe("arrayFrom", () => {
+  const result = testMethod(arrayFrom, iterations);
   test("newArr should be longer than origin by one", () => {
     expect(result.newArr).toHaveLength(result.origin.length + 1);
   });
