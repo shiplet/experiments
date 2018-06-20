@@ -9,7 +9,7 @@ $ npm test
 
 ## Array Dupe Comparisons
 
-This is meant to show the performance differences between three main methods of deepcopying arrays:
+This is meant to show the performance differences between three methods of deepcopying arrays:
 
 - `Array.prototype.slice`
 - `Array.from`
