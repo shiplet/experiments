@@ -1,0 +1,23 @@
+{
+  "name": "performance-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrayDupeComparison.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiplet/experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiplet/experiments/issues"
+  },
+  "homepage": "https://github.com/shiplet/experiments#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "jest": "^23.1.0"
+  }
+}
